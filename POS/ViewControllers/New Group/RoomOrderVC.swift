@@ -42,9 +42,11 @@ extension RoomOrderVC: UITableViewDelegate,UITableViewDataSource {
         if (indexPath.row<4) {
             let cell : EmptyContainerCellTableViewCell = tableView.dequeueReusableCell(withIdentifier: emptyContainerCell, for: indexPath) as! EmptyContainerCellTableViewCell
             cell.containeNameLbl?.text = delivery!.deliveryDisplayModes[indexPath.row].displayName
+            cell.selectionStyle = .none
             return cell
         } else {
             let cell : FilledCell = tableView.dequeueReusableCell(withIdentifier: filledCell, for: indexPath) as! FilledCell
+            cell.selectionStyle = .none
             return cell
         }
         

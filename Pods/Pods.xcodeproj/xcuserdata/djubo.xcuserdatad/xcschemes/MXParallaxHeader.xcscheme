@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F65C0EE8AF6DB74ABBACA4A3A11CE230"
+               BlueprintIdentifier = "8C910EF5A66D72117B0E8D0A98EB1DBC"
                BuildableName = "MXParallaxHeader.framework"
                BlueprintName = "MXParallaxHeader"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -121,6 +121,7 @@ extension OrdersHistoryVC : UITableViewDelegate,UITableViewDataSource {
             page += 1
             OrderListFetcher()
         }
+        cell.selectionStyle = .none
         return cell
         
         

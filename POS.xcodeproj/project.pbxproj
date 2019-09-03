@@ -31,8 +31,6 @@
 		12AF7432231B14050041337E /* OrderStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AF7431231B14050041337E /* OrderStatusEnum.swift */; };
 		12AF7434231B18A00041337E /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AF7433231B18A00041337E /* DateHelper.swift */; };
 		12B4B049231A75450038196C /* OrdersHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4B048231A75450038196C /* OrdersHistoryVC.swift */; };
-		12BBCC62231BFA4800B69D15 /* lTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBCC60231BFA4800B69D15 /* lTableViewCell.swift */; };
-		12BBCC63231BFA4800B69D15 /* lTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12BBCC61231BFA4800B69D15 /* lTableViewCell.xib */; };
 		12F3596722CA948300765B78 /* POSMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F3596622CA948300765B78 /* POSMain.storyboard */; };
 		12F3596922CA957F00765B78 /* SliderMenuLeftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3596822CA957F00765B78 /* SliderMenuLeftVC.swift */; };
 		12F3596B22CA97B200765B78 /* AppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3596A22CA97B200765B78 /* AppToolbarController.swift */; };
@@ -78,24 +76,22 @@
 		123DA6D422CF5DCC008FB5DB /* FilledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledCell.swift; sourceTree = "<group>"; };
 		123DA6D522CF5DCC008FB5DB /* FilledCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilledCell.xib; sourceTree = "<group>"; };
 		123DA6D822CF86A4008FB5DB /* OrderResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponseModel.swift; sourceTree = "<group>"; };
-		124B45B8231B820E0043D113 /* ViewOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewOrderVC.swift; path = ../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/ViewOrderVC.swift; sourceTree = "<group>"; };
-		128E56E4231BE6EA007D7A9C /* OrderSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderSummaryCell.swift; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/OrderSummaryCell.swift"; sourceTree = "<group>"; };
-		128E56E5231BE6EA007D7A9C /* OrderSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OrderSummaryCell.xib; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/OrderSummaryCell.xib"; sourceTree = "<group>"; };
-		128E56E8231BE71B007D7A9C /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemViewCell.swift; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/ItemViewCell.swift"; sourceTree = "<group>"; };
-		128E56E9231BE71B007D7A9C /* ItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemViewCell.xib; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/ItemViewCell.xib"; sourceTree = "<group>"; };
-		128E56EC231BE744007D7A9C /* ItemFullViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemFullViewCell.swift; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/ItemFullViewCell.swift"; sourceTree = "<group>"; };
-		128E56ED231BE744007D7A9C /* ItemFullViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemFullViewCell.xib; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/ItemFullViewCell.xib"; sourceTree = "<group>"; };
+		124B45B8231B820E0043D113 /* ViewOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOrderVC.swift; sourceTree = "<group>"; };
+		128E56E4231BE6EA007D7A9C /* OrderSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryCell.swift; sourceTree = "<group>"; };
+		128E56E5231BE6EA007D7A9C /* OrderSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderSummaryCell.xib; sourceTree = "<group>"; };
+		128E56E8231BE71B007D7A9C /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
+		128E56E9231BE71B007D7A9C /* ItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemViewCell.xib; sourceTree = "<group>"; };
+		128E56EC231BE744007D7A9C /* ItemFullViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFullViewCell.swift; sourceTree = "<group>"; };
+		128E56ED231BE744007D7A9C /* ItemFullViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemFullViewCell.xib; sourceTree = "<group>"; };
 		12AF18D922C8A4660007551D /* UserAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountModel.swift; sourceTree = "<group>"; };
 		12AF18DB22C8A6BA0007551D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		12AF18DD22C8AB7E0007551D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		12AF18DF22C9426B0007551D /* PropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
 		12AF18E122C942D60007551D /* PropertiesListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesListModel.swift; sourceTree = "<group>"; };
 		12AF18E322C945D70007551D /* StaffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffModel.swift; sourceTree = "<group>"; };
-		12AF7431231B14050041337E /* OrderStatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderStatusEnum.swift; path = ../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/Enums/OrderStatusEnum.swift; sourceTree = "<group>"; };
-		12AF7433231B18A00041337E /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = ../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/Helper/DateHelper.swift; sourceTree = "<group>"; };
-		12B4B048231A75450038196C /* OrdersHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrdersHistoryVC.swift; path = ../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/History/OrdersHistoryVC.swift; sourceTree = "<group>"; };
-		12BBCC60231BFA4800B69D15 /* lTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = lTableViewCell.swift; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/lTableViewCell.swift"; sourceTree = "<group>"; };
-		12BBCC61231BFA4800B69D15 /* lTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = lTableViewCell.xib; path = "../../../../../../../../System/Volumes/Data/Users/djubo/Downloads/POS/POS/ViewControllers/ViewOrder/Table cells/lTableViewCell.xib"; sourceTree = "<group>"; };
+		12AF7431231B14050041337E /* OrderStatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusEnum.swift; sourceTree = "<group>"; };
+		12AF7433231B18A00041337E /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		12B4B048231A75450038196C /* OrdersHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersHistoryVC.swift; sourceTree = "<group>"; };
 		12F3596622CA948300765B78 /* POSMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = POSMain.storyboard; path = Models/POSMain.storyboard; sourceTree = "<group>"; };
 		12F3596822CA957F00765B78 /* SliderMenuLeftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuLeftVC.swift; sourceTree = "<group>"; };
 		12F3596A22CA97B200765B78 /* AppToolbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppToolbarController.swift; sourceTree = "<group>"; };
@@ -167,8 +163,6 @@
 				128E56E9231BE71B007D7A9C /* ItemViewCell.xib */,
 				128E56EC231BE744007D7A9C /* ItemFullViewCell.swift */,
 				128E56ED231BE744007D7A9C /* ItemFullViewCell.xib */,
-				12BBCC60231BFA4800B69D15 /* lTableViewCell.swift */,
-				12BBCC61231BFA4800B69D15 /* lTableViewCell.xib */,
 			);
 			path = "Table cells";
 			sourceTree = "<group>";
@@ -409,7 +403,6 @@
 				128E56E7231BE6EA007D7A9C /* OrderSummaryCell.xib in Resources */,
 				128E56EB231BE71B007D7A9C /* ItemViewCell.xib in Resources */,
 				12F3596722CA948300765B78 /* POSMain.storyboard in Resources */,
-				12BBCC63231BFA4800B69D15 /* lTableViewCell.xib in Resources */,
 				123DA6D722CF5DCC008FB5DB /* FilledCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,9 +440,46 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-POS/Pods-POS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POS/Pods-POS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MXPagerView/MXPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/MXSegmentedPager/MXSegmentedPager.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-POS/Pods-POS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXSegmentedPager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Popover.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -489,7 +519,6 @@
 				12F3598F22CE83EC00765B78 /* RestrauntVC.swift in Sources */,
 				12FE46A222C6AF9B00D0CB9F /* APIRequestConstants.swift in Sources */,
 				12F3596B22CA97B200765B78 /* AppToolbarController.swift in Sources */,
-				12BBCC62231BFA4800B69D15 /* lTableViewCell.swift in Sources */,
 				12FE46AD22C6B68800D0CB9F /* UserDefaultsKeys.swift in Sources */,
 				12FE46A922C6B50400D0CB9F /* Constants.swift in Sources */,
 				128E56EA231BE71B007D7A9C /* ItemViewCell.swift in Sources */,
@@ -665,7 +694,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.djubo.pos.POS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -685,7 +714,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.djubo.pos.POS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

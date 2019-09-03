@@ -34,8 +34,8 @@ class HomeController: MXSegmentedPagerController {
         selectedOutlet = ApplicationVariables.sharedInstance.selectedOutlet
         setContent()
         getOrders()
-//        self.navigationController?.navigationBar.isHidden = false
-//        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.isTranslucent = false
         view.backgroundColor = .white
         configureNavigationBar()
         viewController=UIViewController.init()
@@ -45,9 +45,7 @@ class HomeController: MXSegmentedPagerController {
         segmentedPager.segmentedControl.segmentWidthStyle = HMSegmentedControlSegmentWidthStyle.fixed
         segmentedPager.segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocation.down
         segmentedPager.segmentedControl.selectionStyle = HMSegmentedControlSelectionStyle.arrow
-        //        segmentedPager.segmentedControl.frame = CGRect.init(x: 60, y: 0, width: self.view.bounds.width - 60, height: 40)
         segmentedPager.segmentedControl.backgroundColor = UIColor.black
-        
         segmentedPager.segmentedControl.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.gray, NSAttributedString.Key.font : Font.systemFont(ofSize: 15)]
         segmentedPager.segmentedControl.selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         segmentedPager.segmentedControl.selectionIndicatorColor = UIColor.white

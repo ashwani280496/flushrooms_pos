@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B24C4ABA3ADA0FF95B5FF72A88774D2D"
+               BlueprintIdentifier = "EF1284EBA59FC8C1774B3351C2E7D5C8"
                BuildableName = "MotionAnimator.framework"
                BlueprintName = "MotionAnimator"
                ReferencedContainer = "container:Pods.xcodeproj">

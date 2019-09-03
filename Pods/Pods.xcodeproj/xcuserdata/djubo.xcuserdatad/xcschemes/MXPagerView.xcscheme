@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BCCC6B630CE74C9C777FEC953F4F255E"
+               BlueprintIdentifier = "9608026795CC597826B9EEAA124E0A21"
                BuildableName = "MXPagerView.framework"
                BlueprintName = "MXPagerView"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AA720B0F2D31209EF25EA147A1CAEAA"
+               BlueprintIdentifier = "2D690141A67AD78482566105EA649BAB"
                BuildableName = "com.cosmicmind.material.icons.bundle"
                BlueprintName = "Material-com.cosmicmind.material.icons"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AA720B0F2D31209EF25EA147A1CAEAA"
+            BlueprintIdentifier = "2D690141A67AD78482566105EA649BAB"
             BuildableName = "com.cosmicmind.material.icons.bundle"
             BlueprintName = "Material-com.cosmicmind.material.icons"
             ReferencedContainer = "container:Pods.xcodeproj">

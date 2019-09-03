@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55A01F8E987A6E2F7F0ED141A1ECA406"
+               BlueprintIdentifier = "3B960B5EE65D7764125CDEEB7ABA3C49"
                BuildableName = "MDFInternationalization.framework"
                BlueprintName = "MDFInternationalization"
                ReferencedContainer = "container:Pods.xcodeproj">
