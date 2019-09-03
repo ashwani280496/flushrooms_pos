@@ -1,0 +1,92 @@
+PODS:
+  - Alamofire (4.8.1)
+  - DropDown (2.3.12)
+  - HMSegmentedControl (1.5.3)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - MaterialComponents/ActivityIndicator (78.0.1):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/Palettes (78.0.1)
+  - MaterialComponents/private/Application (78.0.1)
+  - MaterialComponents/private/Math (78.0.1)
+  - MaterialComponents/ProgressView (78.0.1):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+    - MotionAnimator (~> 2.1)
+  - MDFInternationalization (2.0.0)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - MXPagerView (0.2.1)
+  - MXParallaxHeader (0.6.1)
+  - MXSegmentedPager (3.3.0):
+    - HMSegmentedControl (= 1.5.3)
+    - MXPagerView (= 0.2.1)
+    - MXParallaxHeader (= 0.6.1)
+  - Popover (1.2.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftIcons (2.2.0)
+  - TRON/Core (4.2.1):
+    - Alamofire (~> 4.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - Material
+  - MaterialComponents/ActivityIndicator
+  - MaterialComponents/ProgressView
+  - MXSegmentedPager
+  - Popover
+  - SVProgressHUD
+  - SwiftIcons
+  - TRON/Core
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - HMSegmentedControl
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - Motion
+    - MotionAnimator
+    - MotionInterchange
+    - MXPagerView
+    - MXParallaxHeader
+    - MXSegmentedPager
+    - Popover
+    - SVProgressHUD
+    - SwiftIcons
+    - TRON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  MXPagerView: ede184b5191b2ed689ccf05a750a9978cce42414
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  MXSegmentedPager: a35ebaf939e1629f24db3bb26653c1c557362f59
+  Popover: 21e357f86d45c8d9e29a41a4adbca3664d6e511f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftIcons: e7eb9bf2b475d6bdd8b37c5bdedc6d120aab0829
+  TRON: eb0f572d97dd51ec309a27bc785ec82148500512
+
+PODFILE CHECKSUM: c28a2a3267c7986b957195464a5926995c53c070
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,18 @@
+/* 
+Localizable.strings  POS
+
+  Created by Ashwani Kumar on 29/06/19.
+  Copyright © 2019 Djubo. All rights reserved.
+*/
+
+
+// UI Feilds Tags
+"username" = "Username";
+"password" = "Password";
+"submit" = "Submit";
+
+// Error message
+"empty_username" = "Please enter username.";
+"empty_password" = "Please enter password.";
+"invalid_login" = "Login credentials you have used are not valid. Please try again.";
+"general_error" = "There is some error while processing your request. Please try after sometime.";
